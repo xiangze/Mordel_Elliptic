@@ -1,6 +1,6 @@
-import Mw.Step2
-import Mw.IsogId
-import Mw.IsogId2
+import Mordell.Step2
+import Mordell.IsogId
+import Mordell.IsogId2
 
 /-!
 # 2-同種写像（Mordell の定理 Step 2 の残り）
@@ -20,7 +20,7 @@ import Mw.IsogId2
 （`E' : y² = x³ - 2a x² + (a² - 4b) x`）にあたる。
 
 加法性の証明の核心は、`E'` 上の弦（接線）の傾きが閉じた式
-`L = N / (-ν u (2ℓx₁x₂ + ν(x₁+x₂)))` で与えられること（`Mw.IsogId`）。
+`L = N / (-ν u (2ℓx₁x₂ + ν(x₁+x₂)))` で与えられること（`Mordell.IsogId`）。
 この 1 つの式が割線・接線の両方で正しい。
 -/
 

@@ -1,5 +1,5 @@
 import Mathlib.NumberTheory.Height.EllipticCurve
-import Mw.Descent
+import Mordell.Descent
 
 /-!
 # Mordell の定理 Step 1：naive height の性質 (a)(b)(c)
@@ -21,7 +21,7 @@ Mathlib の naive height `P.naiveHeight = logHeight (x(P) : 1)`（`x(P) = m/n` �
 から導く。その証明の中身は、加法・減法写像 `addSubMap : ℙ² → ℙ²` が射であること
 （教科書での「倍点公式の分子・分母に終結式を当てる」議論の一般化）である。
 
-最後に Step 0（`Mw.Descent` の `descent_lemma'`）と組み合わせ、
+最後に Step 0（`Mordell.Descent` の `descent_lemma'`）と組み合わせ、
 **弱 Mordell–Weil（`W(F)/2W(F)` が有限）を仮定すれば `W(F)` は有限生成**
 であることを、Mathlib の本物の点群に対して示す。
 -/

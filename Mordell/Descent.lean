@@ -64,7 +64,7 @@ theorem descent_lemma (h : G → K)
       intro P hP
       apply AddSubgroup.subset_closure
       right
-      show h P ≤ 2 * k + 1
+      change h P ≤ 2 * k + 1
       simpa using hP
     | succ n ih =>
       intro P hP

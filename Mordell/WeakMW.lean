@@ -1,5 +1,5 @@
-import Mw.Isogeny
-import Mw.Step1
+import Mordell.Isogeny
+import Mordell.Step1
 
 /-!
 # 弱 Mordell–Weil と Mordell の定理（位数 2 の有理点を持つ曲線）
